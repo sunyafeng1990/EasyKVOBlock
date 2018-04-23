@@ -13,6 +13,8 @@
 		BCFEF1D6208D6AD700F2FF67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCFEF1D5208D6AD700F2FF67 /* Assets.xcassets */; };
 		BCFEF1D9208D6AD700F2FF67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFEF1D7208D6AD700F2FF67 /* LaunchScreen.storyboard */; };
 		BCFEF1DC208D6AD700F2FF67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFEF1DB208D6AD700F2FF67 /* main.m */; };
+		BCFEF1E4208D6B0100F2FF67 /* SYFTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFEF1E3208D6B0100F2FF67 /* SYFTestObject.m */; };
+		BCFEF1E7208D6B5F00F2FF67 /* NSObject+SYFAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFEF1E6208D6B5F00F2FF67 /* NSObject+SYFAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		BCFEF1D8208D6AD700F2FF67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCFEF1DA208D6AD700F2FF67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCFEF1DB208D6AD700F2FF67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCFEF1E2208D6B0100F2FF67 /* SYFTestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYFTestObject.h; sourceTree = "<group>"; };
+		BCFEF1E3208D6B0100F2FF67 /* SYFTestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYFTestObject.m; sourceTree = "<group>"; };
+		BCFEF1E5208D6B5F00F2FF67 /* NSObject+SYFAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SYFAdd.h"; sourceTree = "<group>"; };
+		BCFEF1E6208D6B5F00F2FF67 /* NSObject+SYFAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SYFAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				BCFEF1CD208D6AD700F2FF67 /* AppDelegate.m */,
 				BCFEF1CF208D6AD700F2FF67 /* ViewController.h */,
 				BCFEF1D0208D6AD700F2FF67 /* ViewController.m */,
+				BCFEF1E2208D6B0100F2FF67 /* SYFTestObject.h */,
+				BCFEF1E3208D6B0100F2FF67 /* SYFTestObject.m */,
+				BCFEF1E5208D6B5F00F2FF67 /* NSObject+SYFAdd.h */,
+				BCFEF1E6208D6B5F00F2FF67 /* NSObject+SYFAdd.m */,
 				BCFEF1D2208D6AD700F2FF67 /* Main.storyboard */,
 				BCFEF1D5208D6AD700F2FF67 /* Assets.xcassets */,
 				BCFEF1D7208D6AD700F2FF67 /* LaunchScreen.storyboard */,
@@ -97,6 +107,7 @@
 		BCFEF1C1208D6AD700F2FF67 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SYF;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "孙亚锋";
 				TargetAttributes = {
@@ -145,6 +156,8 @@
 				BCFEF1D1208D6AD700F2FF67 /* ViewController.m in Sources */,
 				BCFEF1DC208D6AD700F2FF67 /* main.m in Sources */,
 				BCFEF1CE208D6AD700F2FF67 /* AppDelegate.m in Sources */,
+				BCFEF1E4208D6B0100F2FF67 /* SYFTestObject.m in Sources */,
+				BCFEF1E7208D6B5F00F2FF67 /* NSObject+SYFAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
